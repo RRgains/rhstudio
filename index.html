@@ -1,0 +1,3048 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KVESQ2DJB0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KVESQ2DJB0');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RH Studio | Creative & Digital Services</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0066CC',
+                        secondary: '#1A1A1A',
+                        accent: '#00CCFF',
+                        light: '#F8F9FA',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+        
+    </script>
+
+
+     <!-- AOS Animation CSS --> 
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css"  rel="stylesheet">
+</head>
+<body class="font-sans text-secondary bg-light">
+    <!-- Header -->
+<header class="fixed w-full bg-white/30 backdrop-blur-md shadow-md z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-2">
+            <img src="assets/logo.png" alt="rhstudio Logo" class="h-20 w-auto md:h-16 lg:h-20 object-cover" />
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link active text-secondary hover:text-primary font-medium">Home</a>
+            <a href="#about" class="nav-link text-secondary hover:text-primary font-medium">About</a>
+            <a href="#services" class="nav-link text-secondary hover:text-primary font-medium">Services</a>
+            <a href="#portfolio" class="nav-link text-secondary hover:text-primary font-medium">Portfolio</a>
+            <a href="#industries" class="nav-link text-secondary hover:text-primary font-medium">Industries</a>
+            <a href="#contact" class="nav-link text-secondary hover:text-primary font-medium">Contact</a>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="md:hidden text-secondary focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" c class="mobile-menu fixed top-0 right-0 h-full w-4/5 bg-white  shadow-lg z-50 p-5 transform translate-x-full transition-transform duration-300 ease-in-out">
+        <div class="flex justify-between items-center mb-8">
+            <span class="text-xl font-bold text-gradient">RH Studio</span>
+            <button id="close-menu" class="text-secondary focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="flex flex-col space-y-4">
+            <a href="#home" class="text-secondary hover:text-primary font-medium py-2 mobile-nav-link">Home</a>
+            <a href="#about" class="text-secondary hover:text-primary font-medium py-2 mobile-nav-link">About</a>
+            <a href="#services" class="text-secondary hover:text-primary font-medium py-2 mobile-nav-link">Services</a>
+            <a href="#portfolio" class="text-secondary hover:text-primary font-medium py-2 mobile-nav-link">Portfolio</a>
+            <a href="#industries" class="text-secondary hover:text-primary font-medium py-2 mobile-nav-link">Industries</a>
+            <a href="#contact" class="text-secondary hover:text-primary font-medium py-2 mobile-nav-link">Contact</a>
+        </div>
+    </div>
+</header>
+
+<!-- =========================
+     RH STUDIO HERO
+========================= -->
+<section id="home" class="rh-hero">
+
+    <!-- Animated Background -->
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+
+    <!-- Wave Lines -->
+    <div class="hero-waves">
+        <svg viewBox="0 0 1600 600"
+             preserveAspectRatio="none"
+             xmlns="http://www.w3.org/2000/svg">
+
+            <path class="wave wave-1"
+                  d="M0 420 C300 420 400 180 650 300 S1050 500 1300 260 S1500 180 1600 220"/>
+
+            <path class="wave wave-2"
+                  d="M0 450 C300 450 450 210 700 320 S1050 520 1300 280 S1500 220 1600 250"/>
+
+            <path class="wave wave-3"
+                  d="M0 470 C320 470 460 230 720 340 S1080 530 1320 300 S1500 240 1600 270"/>
+
+        </svg>
+    </div>
+
+    <div class="rh-hero-container">
+
+        <!-- =========================
+             LEFT CONTENT
+        ========================== -->
+        <div class="rh-hero-content">
+
+            <div class="hero-title">
+                <h1>
+                    <span>We Create.</span>
+                    <strong>You Grow.</strong>
+                </h1>
+            </div>
+
+            <div class="hero-line"></div>
+
+            <p class="hero-description">
+                We help brands stand out with creative content
+                and high-performing websites.
+            </p>
+
+            <!-- Buttons -->
+            <div class="hero-buttons">
+
+                <a href="#services" class="hero-btn hero-btn-primary">
+                    <span>OUR SERVICES</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="#portfolio" class="hero-btn hero-btn-outline">
+                    <span>VIEW WORK</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <!-- Services -->
+            <div class="hero-services">
+
+                <div class="hero-service">
+
+                    <div class="hero-service-icon">
+                        <i class="fas fa-pen-to-square"></i>
+                    </div>
+
+                    <div>
+                        <span>CONTENT</span>
+                        <span>CREATING</span>
+                    </div>
+
+                </div>
+
+
+                <div class="hero-divider"></div>
+
+
+                <div class="hero-service">
+
+                    <div class="hero-service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+
+                    <div>
+                        <span>WEB</span>
+                        <span>DEVELOPMENT</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             RIGHT LAPTOP
+        ========================== -->
+        <div class="hero-laptop-area">
+
+            <div class="laptop-glow"></div>
+
+            <div class="laptop">
+
+                <!-- Screen -->
+                <div class="laptop-screen">
+
+                    <div class="screen-content">
+
+                        <div class="screen-text">
+
+                            <h2>
+                                Build.
+                                <span>Design.</span>
+                                Elevate.
+                            </h2>
+
+                            <p>
+                                Digital solutions that
+                                drive real impact.
+                            </p>
+
+                            <a href="#services" class="screen-button">
+                                EXPLORE
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+
+                        </div>
+
+
+                        
+
+                    </div>
+
+                </div>
+               <!-- Professional Camera -->
+<div class="camera-object">
+
+    <div class="camera-body">
+
+        <!-- Camera Top -->
+        <div class="camera-top">
+
+            <div class="camera-viewfinder"></div>
+
+            <div class="camera-shutter"></div>
+
+            <div class="camera-dial"></div>
+
+        </div>
+
+        <!-- Camera Main Body -->
+        <div class="camera-main">
+
+            <!-- Camera Grip -->
+            <div class="camera-grip"></div>
+
+            <!-- Camera Lens -->
+            <div class="camera-lens">
+
+                <div class="lens-outer-ring">
+                    <div class="lens-metal-ring">
+                        <div class="lens-glass">
+
+                            <div class="lens-reflection"></div>
+                            <div class="lens-aperture"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Camera Logo -->
+            <div class="camera-logo">
+                RH
+            </div>
+
+        </div>
+
+        <!-- Camera Bottom -->
+        <div class="camera-bottom"></div>
+
+    </div>
+
+</div>
+
+
+                <!-- Laptop Base -->
+                <div class="laptop-base">
+
+                    <div class="keyboard"></div>
+
+                    <div class="trackpad"></div>
+
+                </div>
+
+                <!-- Laptop Bottom -->
+                <div class="laptop-bottom"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+         
+        
+    <!-- About Section --> 
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4"> <span class="text-gradient">RH Studio</span></h2>
+                <div class="w-24 h-1 bg-accent mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="w-full md:w-1/2 mb-10 md:mb-0 pr-0 md:pr-8">
+                    <div class="relative">
+                        <div class="absolute -top-4 -left-4 w-64 h-64 bg-primary opacity-10 rounded-lg"></div>
+                        <div class="absolute -bottom-4 -right-4 w-64 h-64 bg-accent opacity-10 rounded-lg"></div>
+                        <div class="relative z-10 rounded-lg overflow-hidden shadow-xl">
+                            <img src="assets/photograph1.webp" alt="About Innovate Sphere" class="w-full h-auto object-cover rounded-lg shadow-xl" />
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4">Who We Are</h3>
+                    <p class="text-gray-700 mb-6">At RH Studio, creativity drives technology. We blend design, development, and digital strategy to turn ambitious ideas into powerful digital experiences that connect, engage, and move businesses forward.</p>
+                    <h3 class="text-2xl font-bold mb-4">What Makes Us Unique</h3>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-5 h-5 rounded-full bg-primary flex items-center justify-center">
+                                    <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="font-medium">Built Around Your Brand</h4>
+                                <p class="text-gray-600">No two businesses are the same, so we don't do one-size-fits-all. From websites and visual content to social media and digital strategy, we create solutions shaped around your identity, audience, and goals.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-5 h-5 rounded-full bg-primary flex items-center justify-center">
+                                    <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="font-medium">From First Click to Lasting Impression</h4>
+                                <p class="text-gray-600">Your digital presence is more than a website or a social media page. It's the story your brand tells at every touchpoint. We bring everything together—from content and design to technology—to create a consistent experience people remember.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-5 h-5 rounded-full bg-primary flex items-center justify-center">
+                                    <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="font-medium">Always Creating What's Next</h4>
+                                <p class="text-gray-600">Digital never stands still, and neither do we. We explore new tools, emerging technologies, and creative possibilities to keep your brand fresh, relevant, and ready for what comes next.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-3">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our <span class="text-gradient">Services</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We combine creativity, technology, and strategy to create digital experiences that help your brand stand out, connect with your audience, and grow.</p>
+                <div class="w-24 h-1 bg-accent mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1  lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Photography & Videography</h3>
+                    <p class="text-gray-600 mb-4">Professional photo and video production to showcase your business, products, and services in the best light.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Product Photography
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Brand Videos
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Event Coverage
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-primary font-medium hover:text-blue-700 flex items-center">
+                        Learn More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Digital Marketing</h3>
+                    <p class="text-gray-600 mb-4">Strategic digital marketing solutions to increase your online presence and drive meaningful engagement.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Social Media Management
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            SEO Optimization
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Content Strategy
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-primary font-medium hover:text-blue-700 flex items-center">
+                        Learn More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Web Development</h3>
+                    <p class="text-gray-600 mb-4">Custom website development focused on user experience, performance, and achieving your business goals.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Responsive Design
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            E-commerce Solutions
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            CMS Integration
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-primary font-medium hover:text-blue-700 flex items-center">
+                        Learn More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                </div>
+
+                
+            <!-- Restaurant Solutions Highlight -->
+            
+               <section id="about" class="py-12 md:py-16 bg-gray">
+ <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Restaurant Solutions</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">We provide specialized digital solutions for restaurants, helping them enhance their online presence, streamline operations, and increase customer engagement.</p>
+                </div>
+            <div class="mt-16 bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="flex flex-col md:flex-row">
+<div class="w-full md:w-1/2 bg-gradient-to-br from-[#020617] via-[#0f2a5f] to-[#2563eb] p-8 text-white">                        <h3 class="text-2xl font-bold mb-4">Specialized Restaurant Solutions</h3>
+                        <p class="mb-6">We understand the unique challenges and opportunities in the restaurant industry. Our specialized solutions help restaurants thrive in the digital age.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-white flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="font-medium">Online Ordering Systems</h4>
+                                    <p class="text-white text-opacity-80">Custom-built, commission-free ordering platforms integrated with your website.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-white flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="font-medium">Digital Menu Solutions</h4>
+                                    <p class="text-white text-opacity-80">Interactive, QR-based menus with easy updating capabilities.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-white flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="font-medium">Reservation Management</h4>
+                                    <p class="text-white text-opacity-80">Streamlined booking systems that integrate with your existing workflow.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="inline-block mt-8 bg-white text-primary font-medium py-2 px-6 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">Get Restaurant Solutions</a>
+                    </div>
+                    <div class="w-full md:w-1/2 p-0">
+                        <div class="h-full bg-gray-200 flex items-center justify-center rounded-lg overflow-hidden shadow-xl">
+                            <img src="assets/photo1.jpg" alt="Restaurant Solutions" class="w-full h-full object-cover rounded-lg shadow-xl" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-12 md:py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <!-- Cleaned HTML Snippet with Dynamic Portfolio Description -->
+<div class="text-center mb-16">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Featured Projects </span></h2>
+
+    <!-- Dynamic Description Paragraph (placed after existing filter buttons) -->
+    <p id="portfolio-description" class="mt-4 text-center max-w-2xl mx-auto text-secondary">
+Discover our latest projects and see how we help businesses across different industries build their brand, grow their presence, and achieve their goals.    </p>
+
+    <div class="w-24 h-1 bg-accent mx-auto mt-4"></div>
+</div>
+            <!-- Portfolio Filter -->
+            <!-- <div class="flex flex-wrap justify-center mb-8"> -->
+                <!-- <button class="portfolio-filter-btn active m-2 px-4 py-2 bg-primary text-white rounded-md" data-filter="all">All</button> -->
+                <!-- <button class="portfolio-filter-btn m-2 px-4 py-2 bg-gray-200 text-gray-700 rounded-md" data-filter="photo">Photography</button>
+                <button class="portfolio-filter-btn m-2 px-4 py-2 bg-gray-200 text-gray-700 rounded-md" data-filter="video">Videography</button>
+                <button class="portfolio-filter-btn m-2 px-4 py-2 bg-gray-200 text-gray-700 rounded-md" data-filter="web">Web Development</button> -->
+                <!--<button class="portfolio-filter-btn m-2 px-4 py-2 bg-gray-200 text-gray-700 rounded-md" data-filter="marketing">Digital Marketing</button>-->   
+            <!-- </div> -->
+            <!-- Portfolio Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Portfolio Item: Namastey (Photography) -->
+                <div class="portfolio-item rounded-lg overflow-hidden shadow-lg h-72" data-category="photo">
+                    <div class="relative w-full h-full">
+                        <img src="assets/namastey.jpg" alt="Namastey Indian" class="w-full h-full object-cover" /> 
+                        <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-50 flex items-center justify-center p-4">
+                            <div class="text-center">
+                                <h3 class="text-white text-xl font-bold mb-2">Namastey Indian Resturant</h3>
+                                <p class="text-white text-opacity-90 mb-4">      </p>
+                                <a href="https://www.instagram.com/namastey.portugal/"  target="_blank" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- kairasushi (Photography) -->
+                <div class="portfolio-item rounded-lg overflow-hidden shadow-lg h-72" data-category="photo">
+                    <div class="relative w-full h-full">
+                        <img src="assets/kaira.jpg" alt="kairasishi" class="w-full h-full object-cover" /> 
+                        <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-50 flex items-center justify-center p-4">
+                            <div class="text-center">
+                                <h3 class="text-white text-xl font-bold mb-2">Kaira Sushi</h3>
+                                <p class="text-white text-opacity-90 mb-4">   </p>
+                                <a href="https://www.instagram.com/kairasushi/?hl=en"  target="_blank" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- papaya (Photography) -->
+                <div class="portfolio-item rounded-lg overflow-hidden shadow-lg h-72" data-category="photo">
+                    <div class="relative w-full h-full">
+                        <img src="assets/papaya.jpg" alt="papaya" class="w-full h-full object-cover" loading="lazy" />
+                        <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-50 flex items-center justify-center p-4">
+                            <div class="text-center">
+                                <h3 class="text-white text-xl font-bold mb-2">Papaya Resturant</h3>
+                                <p class="text-white text-opacity-90 mb-4"></p>
+                                <a href="https://www.instagram.com/papaya.portugal/"  target="_blank" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item: namastey (website) -->
+                <div class="portfolio-item rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 h-72" data-category="video">
+                    <div class="relative w-full h-full">
+                        <img src="assets/namastey site.jpg" alt="namastey website" class="w-full h-full object-cover" loading="lazy" />
+                        <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-50 flex items-center justify-center p-4">
+                            <div class="text-center">
+                                <h3 class="text-white text-xl font-bold mb-2">Namastey Website</h3>
+                                <p class="text-white text-opacity-90 mb-4"></p>
+                                <a href="https://namastey.pt/" target="_blank" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item: Peccato di Gola Pizza (Videography) -->
+                <!-- <div class="portfolio-item rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 h-72" data-category="video">
+                    <div class="relative w-full h-full">
+                        <img src="img/golathumbnail.jpg" alt="Pizza, The Italian Way" class="w-full h-full object-cover" loading="lazy" />
+                        <span class="absolute top-2 left-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">Video</span>
+                        <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-80 flex items-center justify-center p-4">
+                            <div class="text-center">
+                                <h3 class="text-white text-xl font-bold mb-2">Pizza, The Italian Way</h3>
+                                <p class="text-white text-opacity-90 mb-4">A Flavorful behind-the-scenes look at Peccato di Gola's Pizza Craft</p>
+                                <a href="https://youtube.com/shorts/mLPV4Enw3eg?si=nvthULyw7EZt6QSL" target="_blank" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Portfolio Item: Venue (Videography) -->
+                <!-- <div class="portfolio-item rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 h-72" data-category="video">
+                    <div class="relative w-full h-full">
+                        <img src="img/IMG_4490.JPG" alt="Cocktail Rhythm at Venue" class="w-full h-full object-cover" loading="lazy" />
+                        <span class="absolute top-2 left-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">Video</span>
+                        <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-80 flex items-center justify-center p-4">
+                            <div class="text-center">
+                                <h3 class="text-white text-xl font-bold mb-2">Cocktail Rhythm</h3>
+                                <p class="text-white text-opacity-90 mb-4">From Shaker to Glass - A Cinematic Glimpse into the Craft of Mixology</p>
+                                <a href="https://youtube.com/shorts/gjxMza3icZc?feature=share" target="_blank" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Portfolio Item: Komal Indian Restaurant (Web) -->
+                <!-- <div class="portfolio-item rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 h-72" data-category="web">
+                    <div class="relative w-full h-full flex items-center justify-center">
+                        <img src="img/komal.png" alt="Kashmir Curry House Website" class="w-full h-full object-cover" loading="lazy" />
+                        <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-80 flex items-center justify-center p-4">
+                            <div class="text-center">
+                                <h3 class="text-white text-xl font-bold mb-2">Komal: Designed to Impress</h3>
+                                <p class="text-white text-opacity-90 mb-4">A sleek digital presence designed to highlight Komal’s signature dishes and unique identity</p>
+                                <a href="https://komal.pt/" target="_blank" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Portfolio Item: Praia Da Coelha Website (Web) -->
+                <!-- <div class="portfolio-item rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 h-72" data-category="web">
+                    <div class="relative w-full h-full flex items-center justify-center">
+                        <img src="img/Praiadacoelha.webp" alt="Kashmir Curry House Website" class="w-full h-full object-cover" loading="lazy" />
+                        <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-80 flex items-center justify-center p-4">
+                            <div class="text-center">
+                                <h3 class="text-white text-xl font-bold mb-2">Praia da Coelha Website</h3>
+                                <p class="text-white text-opacity-90 mb-4">A bright, photo-forward design capturing the essence of beachfront dining and easy guest connection</p>
+                                <a href="https://praiadacoelha.com" target="_blank" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-opacity-90">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- View All Projects Button with Icon - Centered Version -->
+<!-- <div class="w-full text-center mt-12" data-aos="fade-up" data-aos-delay="300">
+    <a href="portfolio" class="inline-flex items-center bg-primary hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-md transition duration-300 ease-in-out transform hover:scale-105 group">
+        View Complete Portfolio
+        <svg class="w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+        </svg>
+    </a>
+</div> -->
+</section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 ">Brands We Empower</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We work across industries, bringing creative vision and digital expertise to businesses ready to grow, evolve, and make an impact.</p>
+                <div class="w-24 h-1 bg-accent mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Industry 1 - Restaurants -->
+                <div class="bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out hover:shadow-xl">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Restaurants & Cafés</h3>
+                    <p class="text-gray-600 mb-4">Our specialized solutions help restaurants and cafés enhance their digital presence, streamline operations, and create memorable dining experiences.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Online Ordering Systems
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Digital Menu Solutions
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Food Photography
+                        </li>
+                    </ul>
+                </div>
+                <!-- Industry 2 - Real Estate -->
+                <div class="bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out hover:shadow-xl">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Real Estate</h3>
+                    <p class="text-gray-600 mb-4">We help real estate professionals showcase properties with stunning visuals and create engaging digital experiences for potential buyers.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Property Photography
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Virtual Tours
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Listing Websites
+                        </li>
+                    </ul>
+                </div>
+                <!-- Industry 3 - Events -->
+                <div class="bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out hover:shadow-xl">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 00-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 000-2H6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Events & Entertainment</h3>
+                    <p class="text-gray-600 mb-4">We capture the energy and excitement of events, helping organizers promote and document their gatherings with style.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Drone Coverage
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Social Media Content Creation
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Video Production
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-white" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold gradient-title gradient-title">Get in Touch</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Have a project in mind or looking to elevate your brand? Let’s connect and create something meaningful together.</p>
+                <div class="w-24 h-1 bg-accent mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Contact Form -->
+                <div class="bg-white rounded-lg shadow-lg p-6" data-aos="fade-right" data-aos-delay="200">
+                    <form id="contact-form" action="https://formspree.io/f/mljrlzog"  method="POST">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2 ">Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Your Name" required />
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Your Email" required />
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <!-- Success/Error Message -->
+                        <div id="form-message" class="hidden mb-4 p-3 rounded-md text-white text-center font-medium"></div>
+
+                        <div class="text-center">
+                            <button type="submit" class="bg-primary hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md transition duration-300 ease-in-out">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Contact Info -->
+                <div class="flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+                    <img src="assets/contact.png" alt="Contact Image" class="w-full max-w-md rounded-lg shadow-lg mb-6" />
+                    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
+                        <div class="flex items-center mb-4">
+                            <svg class="w-6 h-6 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                            </svg>
+                            <span class="text-gray-700 font-medium">+351 910121326</span>
+                        </div>
+                        <div class="flex items-center mb-4">
+                            <svg class="w-6 h-6 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                            <span class="text-gray-700 font-medium">contact@rhstudio.com</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://www.facebook.com/profile.php?id=61559255862210" target="_blank" class="text-gray-700 hover:text-primary transition duration-300">
+                                <i class="fab fa-facebook-f text-2xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/innovate.sphere.24/" target="_blank" class="text-gray-700 hover:text-primary transition duration-300">
+                                <i class="fab fa-instagram text-2xl"></i>
+                            </a>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+<footer class="bg-gradient-to-br from-[#020617] via-[#0F2A5F] to-[#2563EB] text-white py-6 relative">
+    <div class="container mx-auto px-4 text-center">
+        
+        <div class="mb-2">
+            <a href="#" class="flex items-center justify-center space-x-2 mb-2">
+                <img 
+                    src="assets/logo.png" 
+                    alt="RH STUDIO Logo" 
+                    class="h-10 w-10 object-contain"
+                />
+
+                <span class="text-2xl font-bold text-white">
+                    RH STUDIO
+                </span>
+            </a>
+
+            <p class="text-white max-w-xl mx-auto p-1 rounded-md">
+                Ready to take your brand to the next level?<br>
+                RH Studio blends creativity and technology to create digital experiences that make your business stand out.
+            </p>
+        </div>
+
+        <div class="flex justify-center space-x-6 mb-3">
+        </div>
+
+        <p class="text-white text-sm p-1 rounded-md">
+            &copy; Copyright RH Studio. All Rights Reserved
+        </p>
+
+    </div>
+</footer>
+<!-- WhatsApp floating button (open chat) -->
+    <a
+      href="https://wa.me/351910121326"
+      class="whatsapp-btn"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M20.52 3.48A11.86 11.86 0 0 0 12 .5C6.06.5 1.5 5.06 1.5 11c0 1.94.5 3.85 1.45 5.54L.5 23.5l6.15-2.02A11.6 11.6 0 0 0 12 22.5c5.94 0 10.5-4.56 10.5-10.5a11.86 11.86 0 0 0-2.48-6.52zM12 20.1c-1.36 0-2.69-.36-3.86-1.04l-.28-.17-3.65 1.2 1.24-3.55-.18-.29A8.88 8.88 0 0 1 3.9 11c0-4.99 4.06-9.05 9.05-9.05 2.41 0 4.67.94 6.36 2.63A8.98 8.98 0 0 1 21.05 11 9.05 9.05 0 0 1 12 20.1z"/>
+        <path fill="currentColor" d="M17.16 14.14c-.29-.15-1.7-.84-1.96-.94-.26-.11-.45-.15-.64.15-.19.29-.74.94-.91 1.14-.17.19-.34.21-.63.07-.29-.15-1.23-.45-2.34-1.45-.87-.77-1.45-1.72-1.62-2.01-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.03-.51-.08-.15-.64-1.54-.88-2.12-.23-.55-.47-.48-.64-.49l-.55-.01c-.19 0-.5.07-.76.36-.26.29-1 1-1 2.44 0 1.44 1.03 2.84 1.18 3.04.15.19 2.03 3.11 4.92 4.36 2.88 1.25 2.88.83 3.41.78.53-.05 1.7-.69 1.94-1.36.24-.66.24-1.23.17-1.36-.07-.12-.26-.19-.55-.34z"/>
+      </svg>
+    </a>
+
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+    <!-- Contact Form Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('contact-form');
+            const messageBox = document.getElementById('form-message');
+
+            if (form) {
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    const formData = new FormData(form);
+                    const button = form.querySelector('button[type="submit"]');
+                    const originalText = button.textContent;
+
+                    // Disable button and show loading state
+                    button.disabled = true;
+                    button.textContent = 'Sending...';
+
+                    fetch(form.action, {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            messageBox.className = 'bg-green-500 text-white p-3 rounded-md mb-4';
+                            messageBox.textContent = 'Thank you! Your message has been sent.';
+                            messageBox.classList.remove('hidden');
+                            form.reset();
+                        } else {
+                            messageBox.className = 'bg-red-500 text-white p-3 rounded-md mb-4';
+                            messageBox.textContent = 'Oops! There was a problem sending your message.';
+                            messageBox.classList.remove('hidden');
+                        }
+                    })
+                    .catch(error => {
+                        messageBox.className = 'bg-red-500 text-white p-3 rounded-md mb-4';
+                        messageBox.textContent = 'Oops! There was a problem sending your message.';
+                        messageBox.classList.remove('hidden');
+                    })
+                    .finally(() => {
+                        button.disabled = false;
+                        button.textContent = originalText;
+                    });
+                });
+            }
+        });
+    </script>
+
+    <!-- Portfolio Filtering -->
+    <script>
+        const filterButtons = document.querySelectorAll('.portfolio-filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', function () {
+                filterButtons.forEach(b => {
+                    b.classList.remove('active', 'bg-primary', 'text-white');
+                    b.classList.add('bg-gray-200', 'text-gray-700');
+                });
+                this.classList.add('active', 'bg-primary', 'text-white');
+                this.classList.remove('bg-gray-200', 'text-gray-700');
+
+                const filter = this.getAttribute('data-filter');
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMenuButton = document.getElementById('close-menu');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('translate-x-full');
+            mobileMenu.classList.toggle('translate-x-0');
+            document.body.classList.toggle('overflow-hidden');
+        });
+
+        closeMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('translate-x-full');
+            mobileMenu.classList.toggle('translate-x-0');
+            document.body.classList.toggle('overflow-hidden');
+        });
+
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('translate-x-0');
+                mobileMenu.classList.add('translate-x-full');
+                document.body.classList.remove('overflow-hidden');
+            });
+        });
+        
+    </script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- Script to handle dynamic description -->
+<script>
+  const descriptions = {
+    all: "Explore our recent projects and see how we've helped businesses across various industries achieve their goals.",
+    video: "We craft cinematic visuals that bring brands to life, from grand openings to behind-the-scenes kitchen stories. Every frame is designed to tell your story with impact and style.",
+    photo: "Striking, detail-rich photography that captures the mood, flavor, and personality of your business. Perfect for social media, menus, and digital branding.",
+    web: "Clean, responsive websites built for performance, aesthetics, and user experience with smart features like integrated ordering systems and mobile optimization."
+  };
+
+  const buttons = document.querySelectorAll("[data-filter]");
+  const description = document.getElementById("portfolio-description");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const category = button.getAttribute("data-filter");
+      if (descriptions[category]) {
+        description.textContent = descriptions[category];
+      }
+    });
+  });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const laptop = document.querySelector(".laptop");
+
+    if (!laptop) return;
+
+    const isMobile = window.innerWidth <= 768;
+
+    if (isMobile) return;
+
+    const laptopArea = document.querySelector(".hero-laptop-area");
+
+    laptopArea.addEventListener("mousemove", function (e) {
+
+        const rect = laptopArea.getBoundingClientRect();
+
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+
+        const rotateY = ((x - centerX) / centerX) * 4;
+        const rotateX = ((centerY - y) / centerY) * 3;
+
+        laptop.style.transform = `
+            rotateY(${-8 + rotateY}deg)
+            rotateX(${5 + rotateX}deg)
+            rotateZ(-4deg)
+            translateY(-5px)
+        `;
+    });
+
+
+    laptopArea.addEventListener("mouseleave", function () {
+
+        laptop.style.transform = `
+            rotateY(-8deg)
+            rotateX(5deg)
+            rotateZ(-4deg)
+        `;
+
+    });
+
+});
+
+</script>
+    
+<style>
+    /* WhatsApp Floating Button */
+.whatsapp-btn {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #25D366;
+    color: #ffffff;
+
+    border-radius: 50%;
+    text-decoration: none;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+
+    z-index: 9999;
+
+    transition: all 0.3s ease;
+}
+
+.whatsapp-btn svg {
+    width: 32px;
+    height: 32px;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.12);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+.gradient-title {
+    background: linear-gradient(
+        90deg,
+        #1d4ed8 0%,
+        #3b82f6 35%,
+        #93c5fd 65%,
+        #ffffff 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    font-weight: 800;
+}
+ html {
+    scroll-behavior: smooth;
+}
+
+/* =========================
+   Smooth Services Hover
+========================= */
+
+.service-card {
+    position: relative;
+    overflow: hidden;
+    transition:
+        transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: transform, box-shadow;
+}
+
+/* Subtle top glow */
+.service-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #06152F, #3b82f6);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Card Hover */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* Top line animation */
+.service-card:hover::before {
+    transform: scaleX(1);
+}
+
+/* Icon */
+.service-card > div:first-child {
+    transition:
+        transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+        background-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+/* Icon hover */
+.service-card:hover > div:first-child {
+    transform: translateY(-4px) scale(1.08);
+    box-shadow: 0 10px 25px rgba(6, 21, 47, 0.12);
+}
+
+/* Icon itself */
+.service-card svg {
+    transition:
+        transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.service-card:hover > div:first-child svg {
+    transform: scale(1.08) rotate(-4deg);
+}
+
+/* Title */
+.service-card h3 {
+    transition:
+        transform 0.45s ease,
+        color 0.4s ease;
+}
+
+.service-card:hover h3 {
+    transform: translateX(3px);
+    color: #06152F;
+}
+
+/* Description */
+.service-card p {
+    transition: color 0.4s ease;
+}
+
+.service-card:hover p {
+    color: #4b5563;
+}
+
+/* List items */
+.service-card li {
+    transition:
+        transform 0.35s ease,
+        color 0.35s ease;
+}
+
+.service-card:hover li {
+    transform: translateX(3px);
+}
+
+/* Check icons */
+.service-card li svg {
+    transition: transform 0.35s ease;
+}
+
+.service-card:hover li svg {
+    transform: scale(1.15);
+}
+
+/* Learn More */
+.service-card > a {
+    transition:
+        transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+        color 0.3s ease;
+}
+
+.service-card:hover > a {
+    transform: translateX(5px);
+}
+
+/* Arrow */
+.service-card > a svg {
+    transition:
+        transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.service-card:hover > a svg {
+    transform: translateX(4px);
+}
+
+   
+/* =========================================================
+   PROFESSIONAL CAMERA
+========================================================= */
+
+.camera-object {
+    position: absolute;
+
+    right: 5%;
+    bottom: 8%;
+
+    width: 330px;
+    height: 270px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    perspective: 1000px;
+
+    z-index: 5;
+
+    animation: cameraFloat 5s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   CAMERA BODY
+========================================================= */
+
+.camera-body {
+    position: relative;
+
+    width: 285px;
+    height: 190px;
+
+    transform:
+        rotateY(-15deg)
+        rotateX(5deg)
+        rotateZ(-5deg);
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #3d4652 0%,
+            #151b23 35%,
+            #080c12 75%,
+            #02050a 100%
+        );
+
+    border: 1px solid rgba(255,255,255,0.18);
+
+    box-shadow:
+        25px 35px 45px rgba(0,0,0,0.7),
+        inset 3px 3px 8px rgba(255,255,255,0.08),
+        inset -5px -8px 12px rgba(0,0,0,0.7);
+}
+
+
+/* =========================================================
+   CAMERA TOP
+========================================================= */
+
+.camera-top {
+    position: absolute;
+
+    top: -22px;
+    left: 65px;
+
+    width: 150px;
+    height: 32px;
+
+    border-radius: 8px 8px 2px 2px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #303945,
+            #0d1219
+        );
+
+    border: 1px solid rgba(255,255,255,0.12);
+}
+
+
+/* Viewfinder */
+
+.camera-viewfinder {
+    position: absolute;
+
+    left: 55px;
+    top: -13px;
+
+    width: 45px;
+    height: 22px;
+
+    border-radius: 5px 5px 2px 2px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #596574,
+            #111720
+        );
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    box-shadow:
+        inset 0 0 8px rgba(0,0,0,0.7);
+}
+
+
+/* Shutter button */
+
+.camera-shutter {
+    position: absolute;
+
+    right: 16px;
+    top: 6px;
+
+    width: 20px;
+    height: 10px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            145deg,
+            #8d98a5,
+            #242b34
+        );
+
+    box-shadow:
+        0 2px 3px rgba(0,0,0,0.6);
+}
+
+
+/* Dial */
+
+.camera-dial {
+    position: absolute;
+
+    right: 42px;
+    top: 4px;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+
+    background:
+        repeating-conic-gradient(
+            #141a22 0deg,
+            #5c6672 12deg,
+            #141a22 24deg
+        );
+
+    border: 2px solid #0a0e14;
+}
+
+
+/* =========================================================
+   MAIN CAMERA BODY
+========================================================= */
+
+.camera-main {
+    position: absolute;
+
+    inset: 0;
+
+    overflow: hidden;
+
+    border-radius: 18px;
+}
+
+
+/* =========================================================
+   CAMERA GRIP
+========================================================= */
+
+.camera-grip {
+    position: absolute;
+
+    right: -2px;
+    top: 15px;
+
+    width: 72px;
+    height: 155px;
+
+    border-radius:
+        5px 15px 15px 5px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #11161e,
+            #272f3a,
+            #080c12
+        );
+
+    box-shadow:
+        inset 4px 0 8px rgba(255,255,255,0.04),
+        inset -6px 0 10px rgba(0,0,0,0.7);
+}
+
+
+/* Grip texture */
+
+.camera-grip::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 20px 12px;
+
+    border-radius: 8px;
+
+    background:
+        repeating-linear-gradient(
+            0deg,
+            rgba(255,255,255,0.025) 0px,
+            rgba(255,255,255,0.025) 2px,
+            transparent 2px,
+            transparent 6px
+        );
+}
+
+
+/* =========================================================
+   CAMERA LENS
+========================================================= */
+
+.camera-lens {
+    position: absolute;
+
+    left: 55px;
+    top: 15px;
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+
+    padding: 8px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #6d7784,
+            #171d26 35%,
+            #05080d 80%
+        );
+
+    box-shadow:
+        8px 12px 20px rgba(0,0,0,0.7),
+        inset 3px 3px 8px rgba(255,255,255,0.12);
+}
+
+
+/* Outer lens ring */
+
+.lens-outer-ring {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    padding: 8px;
+
+    background:
+        repeating-conic-gradient(
+            from 0deg,
+            #111820 0deg,
+            #707b89 5deg,
+            #151c25 10deg,
+            #4c5765 15deg
+        );
+
+    box-shadow:
+        inset 0 0 10px rgba(0,0,0,0.9);
+}
+
+
+/* Metal ring */
+
+.lens-metal-ring {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    padding: 8px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #343e4a,
+            #080c12
+        );
+}
+
+
+/* =========================================================
+   LENS GLASS
+========================================================= */
+
+.lens-glass {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #496c91 0%,
+            #193b62 20%,
+            #09203b 42%,
+            #030914 70%,
+            #000207 100%
+        );
+
+    border: 3px solid #0b1119;
+
+    box-shadow:
+        inset 0 0 25px #000,
+        0 0 20px rgba(0,102,255,0.25);
+}
+
+
+/* Inner glass */
+
+.lens-glass::before {
+    content: "";
+
+    position: absolute;
+
+    width: 64%;
+    height: 64%;
+
+    left: 18%;
+    top: 18%;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            #000 0%,
+            #02050a 45%,
+            #09274a 65%,
+            #000 100%
+        );
+
+    box-shadow:
+        inset 0 0 20px #000,
+        0 0 12px rgba(0,102,255,0.35);
+}
+
+
+/* Aperture */
+
+.lens-aperture {
+    position: absolute;
+
+    width: 28%;
+    height: 28%;
+
+    left: 36%;
+    top: 36%;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            #000 0%,
+            #000 65%,
+            #0b2d4d 100%
+        );
+
+    box-shadow:
+        0 0 18px rgba(0,0,0,0.95);
+}
+
+
+/* Lens reflection */
+
+.lens-reflection {
+    position: absolute;
+
+    width: 38%;
+    height: 16%;
+
+    left: 14%;
+    top: 12%;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,0.8),
+            rgba(255,255,255,0.05)
+        );
+
+    filter: blur(2px);
+
+    transform: rotate(-35deg);
+
+    z-index: 5;
+}
+
+
+/* Blue light reflection */
+
+.lens-glass::after {
+    content: "";
+
+    position: absolute;
+
+    width: 18%;
+    height: 18%;
+
+    right: 15%;
+    bottom: 15%;
+
+    border-radius: 50%;
+
+    background: #087cff;
+
+    filter: blur(7px);
+
+    opacity: 0.75;
+
+    box-shadow:
+        0 0 25px #087cff;
+}
+
+
+/* =========================================================
+   CAMERA LOGO
+========================================================= */
+
+.camera-logo {
+    position: absolute;
+
+    left: 24px;
+    bottom: 25px;
+
+    color: rgba(255,255,255,0.75);
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================================================
+   CAMERA BOTTOM
+========================================================= */
+
+.camera-bottom {
+    position: absolute;
+
+    bottom: -7px;
+    left: 35px;
+
+    width: 215px;
+    height: 12px;
+
+    border-radius: 0 0 8px 8px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #515c69,
+            #151b23
+        );
+}
+
+
+/* =========================================================
+   FLOATING ANIMATION
+========================================================= */
+
+@keyframes cameraFloat {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+}
+/* =========================================================
+   RH STUDIO HERO
+========================================================= */
+
+.rh-hero {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            circle at 75% 50%,
+            rgba(0, 102, 255, 0.14),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #020814 0%,
+            #03101f 50%,
+            #020711 100%
+        );
+
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+
+    padding-top: 110px;
+    padding-bottom: 70px;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.rh-hero-container {
+    width: min(1400px, 92%);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+
+    align-items: center;
+
+    gap: 30px;
+
+    position: relative;
+    z-index: 5;
+}
+
+
+/* =========================================================
+   LEFT CONTENT
+========================================================= */
+
+.rh-hero-content {
+    position: relative;
+    z-index: 10;
+    padding-left: 20px;
+}
+
+
+/* TITLE */
+
+.hero-title h1 {
+    margin: 0;
+
+    font-size: clamp(3.2rem, 5.2vw, 5.5rem);
+
+    line-height: 0.98;
+
+    font-weight: 800;
+
+    letter-spacing: -3px;
+}
+
+.hero-title h1 span {
+    display: block;
+    color: #ffffff;
+}
+
+.hero-title h1 strong {
+    display: block;
+
+    color: #087cff;
+
+    font-weight: 800;
+
+    text-shadow:
+        0 0 30px rgba(0, 124, 255, 0.18);
+}
+
+
+/* BLUE LINE */
+
+.hero-line {
+    width: 110px;
+    height: 3px;
+
+    background: #087cff;
+
+    margin-top: 32px;
+    margin-bottom: 28px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 15px rgba(0, 124, 255, 0.45);
+}
+
+
+/* DESCRIPTION */
+
+.hero-description {
+    max-width: 540px;
+
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.82);
+
+    font-size: 1.15rem;
+
+    line-height: 1.8;
+
+    letter-spacing: 0.2px;
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.hero-buttons {
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+    margin-top: 40px;
+}
+
+
+.hero-btn {
+    min-width: 245px;
+
+    height: 60px;
+
+    padding: 0 30px;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    border-radius: 50px;
+
+    text-decoration: none;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+
+.hero-btn i {
+    font-size: 14px;
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.hero-btn:hover {
+    transform: translateY(-4px);
+}
+
+
+.hero-btn:hover i {
+    transform: translateX(5px);
+}
+
+
+/* Primary */
+
+.hero-btn-primary {
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            135deg,
+            #087cff,
+            #0066d6
+        );
+
+    box-shadow:
+        0 10px 35px rgba(0, 102, 255, 0.25);
+}
+
+
+.hero-btn-primary:hover {
+    box-shadow:
+        0 15px 45px rgba(0, 102, 255, 0.4);
+}
+
+
+/* Outline */
+
+.hero-btn-outline {
+    color: #ffffff;
+
+    background: rgba(0, 0, 0, 0.15);
+
+    border: 1.5px solid #087cff;
+
+    backdrop-filter: blur(5px);
+}
+
+
+.hero-btn-outline:hover {
+    background: rgba(0, 102, 255, 0.12);
+
+    box-shadow:
+        0 0 25px rgba(0, 102, 255, 0.15);
+}
+
+
+/* =========================================================
+   SERVICES MINI BAR
+========================================================= */
+
+.hero-services {
+    display: flex;
+
+    align-items: center;
+
+    gap: 35px;
+
+    margin-top: 42px;
+}
+
+
+.hero-service {
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+}
+
+
+.hero-service-icon {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #087cff;
+
+    border: 2px solid #087cff;
+
+    border-radius: 5px;
+
+    font-size: 24px;
+
+    box-shadow:
+        0 0 15px rgba(0, 102, 255, 0.15);
+}
+
+
+.hero-service div:last-child {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 3px;
+}
+
+
+.hero-service span {
+    font-size: 0.95rem;
+
+    font-weight: 600;
+
+    line-height: 1.1;
+
+    letter-spacing: 0.5px;
+}
+
+
+.hero-divider {
+    width: 2px;
+
+    height: 54px;
+
+    background: rgba(255, 255, 255, 0.7);
+}
+
+
+/* =========================================================
+   LAPTOP AREA
+========================================================= */
+
+.hero-laptop-area {
+    position: relative;
+
+    height: 600px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    perspective: 1800px;
+}
+
+
+/* BLUE GLOW */
+
+.laptop-glow {
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(0, 102, 255, 0.38),
+            rgba(0, 102, 255, 0.12) 35%,
+            transparent 70%
+        );
+
+    filter: blur(30px);
+
+    z-index: 0;
+
+    animation: laptopGlow 5s ease-in-out infinite alternate;
+}
+
+
+@keyframes laptopGlow {
+
+    from {
+        transform: scale(0.9);
+        opacity: 0.6;
+    }
+
+    to {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+
+}
+
+
+/* =========================================================
+   LAPTOP
+========================================================= */
+
+.laptop {
+    position: relative;
+
+    width: min(650px, 90%);
+
+    transform:
+        rotateY(-8deg)
+        rotateX(5deg)
+        rotateZ(-4deg);
+
+    transition:
+        transform 0.5s ease;
+
+    z-index: 3;
+}
+
+
+.laptop:hover {
+    transform:
+        rotateY(-4deg)
+        rotateX(2deg)
+        rotateZ(-2deg)
+        translateY(-8px);
+}
+
+
+/* =========================================================
+   SCREEN
+========================================================= */
+
+.laptop-screen {
+    position: relative;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 10;
+
+    padding: 12px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #384352,
+            #0d1118
+        );
+
+    border-radius: 18px 18px 5px 5px;
+
+    border: 1px solid rgba(255,255,255,0.35);
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,0.6),
+        inset 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+
+/* SCREEN */
+
+.screen-content {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+
+    background:
+        radial-gradient(
+            circle at 75% 40%,
+            rgba(0, 102, 255, 0.25),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #030810,
+            #071528
+        );
+}
+
+
+/* =========================================================
+   SCREEN TEXT
+========================================================= */
+
+.screen-text {
+    position: absolute;
+
+    left: 8%;
+    top: 15%;
+
+    z-index: 5;
+}
+
+
+.screen-text h2 {
+    margin: 0;
+
+    max-width: 240px;
+
+    font-size: clamp(1.6rem, 3vw, 2.8rem);
+
+    line-height: 1;
+
+    font-weight: 700;
+
+    font-style: italic;
+
+    color: #ffffff;
+}
+
+
+.screen-text h2 span {
+    display: block;
+
+    color: #087cff;
+}
+
+
+.screen-text p {
+    max-width: 180px;
+
+    margin-top: 25px;
+
+    color: rgba(255,255,255,0.72);
+
+    font-size: 0.8rem;
+
+    line-height: 1.5;
+}
+
+
+.screen-button {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    margin-top: 20px;
+
+    padding: 7px 14px;
+
+    border: 1px solid #087cff;
+
+    border-radius: 50px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 0.55rem;
+
+    letter-spacing: 0.8px;
+
+    transition: 0.3s ease;
+}
+
+
+.screen-button:hover {
+    background: #087cff;
+
+    box-shadow:
+        0 0 20px rgba(0, 124, 255, 0.4);
+}
+
+
+/* =========================================================
+   ABSTRACT 3D OBJECT
+========================================================= */
+
+.screen-object {
+    position: absolute;
+
+    right: 10%;
+    bottom: 10%;
+
+    width: 220px;
+    height: 240px;
+
+    transform:
+        perspective(600px)
+        rotateY(-15deg)
+        rotateX(5deg);
+}
+
+
+.object-front {
+    position: absolute;
+
+    width: 140px;
+    height: 190px;
+
+    right: 25px;
+    bottom: 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #69788f,
+            #1d2635
+        );
+
+    clip-path: polygon(
+        20% 0,
+        100% 20%,
+        80% 100%,
+        0 80%
+    );
+
+    box-shadow:
+        20px 25px 35px rgba(0,0,0,0.5);
+}
+
+
+.object-side {
+    position: absolute;
+
+    width: 90px;
+    height: 190px;
+
+    right: -20px;
+    bottom: 20px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #202a3b,
+            #050a12
+        );
+
+    clip-path: polygon(
+        0 20%,
+        100% 0,
+        80% 80%,
+        0 100%
+    );
+}
+
+
+.object-top {
+    position: absolute;
+
+    width: 140px;
+    height: 70px;
+
+    right: 25px;
+    top: 25px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #8996aa,
+            #38465b
+        );
+
+    clip-path: polygon(
+        20% 0,
+        100% 20%,
+        80% 100%,
+        0 80%
+    );
+}
+
+
+/* =========================================================
+   LAPTOP BASE
+========================================================= */
+
+.laptop-base {
+    position: relative;
+
+    width: 110%;
+
+    height: 32px;
+
+    margin-left: -5%;
+
+    background:
+        linear-gradient(
+            180deg,
+            #7e8792,
+            #303943
+        );
+
+    border-radius:
+        0 0 18px 18px;
+
+    box-shadow:
+        0 18px 25px rgba(0,0,0,0.55);
+}
+
+
+/* Keyboard */
+
+.keyboard {
+    position: absolute;
+
+    top: 5px;
+    left: 12%;
+
+    width: 76%;
+    height: 15px;
+
+    background:
+        repeating-linear-gradient(
+            90deg,
+            #10151c 0px,
+            #10151c 8px,
+            #252c35 9px,
+            #252c35 11px
+        );
+
+    border-radius: 3px;
+
+    opacity: 0.9;
+}
+
+
+/* Trackpad */
+
+.trackpad {
+    position: absolute;
+
+    left: 42%;
+
+    bottom: 2px;
+
+    width: 16%;
+    height: 9px;
+
+    border-radius: 3px;
+
+    background: #555f6a;
+
+    opacity: 0.7;
+}
+
+
+/* Bottom edge */
+
+.laptop-bottom {
+    width: 70%;
+
+    height: 8px;
+
+    margin: 0 auto;
+
+    background:
+        linear-gradient(
+            180deg,
+            #929ba5,
+            #454e58
+        );
+
+    border-radius:
+        0 0 10px 10px;
+}
+
+
+/* =========================================================
+   WAVE BACKGROUND
+========================================================= */
+
+.hero-waves {
+    position: absolute;
+
+    left: 35%;
+    right: 0;
+
+    top: 30%;
+
+    width: 70%;
+
+    height: 420px;
+
+    z-index: 1;
+
+    opacity: 0.85;
+
+    pointer-events: none;
+}
+
+
+.hero-waves svg {
+    width: 100%;
+    height: 100%;
+}
+
+
+.wave {
+    fill: none;
+
+    stroke: #087cff;
+
+    stroke-width: 1.5;
+
+    stroke-dasharray: 3 8;
+
+    opacity: 0.65;
+
+    animation:
+        waveMove 7s linear infinite;
+}
+
+
+.wave-2 {
+    opacity: 0.45;
+
+    animation-duration: 9s;
+}
+
+
+.wave-3 {
+    opacity: 0.3;
+
+    animation-duration: 11s;
+}
+
+
+@keyframes waveMove {
+
+    from {
+        stroke-dashoffset: 0;
+    }
+
+    to {
+        stroke-dashoffset: -100;
+    }
+
+}
+
+
+/* =========================================================
+   BACKGROUND GLOWS
+========================================================= */
+
+.hero-glow {
+    position: absolute;
+
+    border-radius: 50%;
+
+    pointer-events: none;
+
+    filter: blur(100px);
+
+    opacity: 0.18;
+}
+
+
+.hero-glow-1 {
+    width: 300px;
+    height: 300px;
+
+    background: #0066ff;
+
+    right: 5%;
+    top: 15%;
+}
+
+
+.hero-glow-2 {
+    width: 220px;
+    height: 220px;
+
+    background: #0088ff;
+
+    left: 10%;
+    bottom: 10%;
+}
+
+
+
+
+/* =========================
+   Smooth Portfolio Hover
+========================= */
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    transition:
+        transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: transform;
+}
+
+.portfolio-item img {
+    transition:
+        transform 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+        filter 0.8s ease;
+    will-change: transform;
+}
+
+/* Overlay */
+.portfolio-overlay {
+    opacity: 0;
+    transform: translateY(15px);
+    transition:
+        opacity 0.5s ease,
+        transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+        backdrop-filter 0.6s ease;
+    backdrop-filter: blur(0px);
+}
+
+/* Hover Card */
+.portfolio-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.20);
+}
+
+/* Image Zoom */
+.portfolio-item:hover img {
+    transform: scale(1.08);
+    filter: brightness(0.85);
+}
+
+/* Overlay Show */
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+    transform: translateY(0);
+    backdrop-filter: blur(4px);
+}
+
+/* Button */
+.portfolio-overlay a {
+    transform: translateY(12px);
+    opacity: 0;
+    transition:
+        transform 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.1s,
+        opacity 0.5s ease 0.1s,
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-overlay a {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Button hover */
+.portfolio-overlay a:hover {
+    transform: translateY(-3px) scale(1.05);
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .rh-hero-container {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 10px;
+    }
+
+    .hero-title h1 {
+        font-size: clamp(3rem, 5vw, 4.5rem);
+    }
+
+    .hero-btn {
+        min-width: 190px;
+
+        height: 55px;
+
+        padding: 0 22px;
+    }
+
+    .hero-laptop-area {
+        height: 500px;
+    }
+
+    .laptop {
+        width: 600px;
+
+        max-width: 100%;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .rh-hero {
+        min-height: auto;
+
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+
+
+    .rh-hero-container {
+        width: 90%;
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+
+    .rh-hero-content {
+        padding-left: 0;
+
+        text-align: center;
+    }
+
+
+    .hero-title h1 {
+        font-size: clamp(2.8rem, 12vw, 4rem);
+
+        letter-spacing: -2px;
+    }
+
+
+    .hero-line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 1rem;
+
+        line-height: 1.7;
+    }
+
+
+    .hero-buttons {
+        flex-direction: column;
+
+        gap: 15px;
+
+        margin-top: 30px;
+    }
+
+
+    .hero-btn {
+        width: 100%;
+
+        max-width: 330px;
+    }
+
+
+    .hero-services {
+        justify-content: center;
+
+        gap: 18px;
+
+        margin-top: 35px;
+    }
+
+
+    .hero-service {
+        gap: 9px;
+    }
+
+
+    .hero-service-icon {
+        width: 40px;
+        height: 40px;
+
+        font-size: 18px;
+    }
+
+
+    .hero-service span {
+        font-size: 0.72rem;
+    }
+
+
+    .hero-divider {
+        height: 45px;
+    }
+
+
+    .hero-laptop-area {
+        height: 350px;
+
+        width: 100%;
+    }
+
+
+    .laptop {
+        width: 95%;
+
+        transform:
+            rotateY(-4deg)
+            rotateX(3deg)
+            rotateZ(-2deg);
+    }
+
+
+    .screen-object {
+        transform: scale(0.65);
+
+        right: -5%;
+        bottom: -5%;
+    }
+
+
+    .screen-text {
+        left: 7%;
+        top: 12%;
+    }
+
+
+    .screen-text h2 {
+        font-size: 1.35rem;
+
+        max-width: 140px;
+    }
+
+
+    .screen-text p {
+        font-size: 0.55rem;
+
+        max-width: 120px;
+
+        margin-top: 12px;
+    }
+
+
+    .screen-button {
+        margin-top: 10px;
+
+        padding: 5px 9px;
+
+        font-size: 0.4rem;
+    }
+
+
+    .hero-waves {
+        left: 0;
+
+        top: 45%;
+
+        width: 100%;
+
+        height: 300px;
+
+        opacity: 0.45;
+    }
+
+    @media (max-width: 768px) {
+
+    .camera-object {
+        width: 260px;
+        height: 220px;
+
+        right: 0;
+        bottom: 5%;
+    }
+
+    .camera-body {
+        width: 230px;
+        height: 155px;
+    }
+
+    .camera-lens {
+        width: 120px;
+        height: 120px;
+
+        left: 45px;
+        top: 12px;
+    }
+
+    .camera-grip {
+        width: 58px;
+        height: 125px;
+    }
+
+    .camera-top {
+        left: 52px;
+        width: 120px;
+    }
+
+}
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .rh-hero {
+        padding-top: 135px;
+    }
+
+
+    .hero-title h1 {
+        font-size: 2.7rem;
+    }
+
+
+    .hero-description {
+        font-size: 0.92rem;
+    }
+
+
+    .hero-services {
+        gap: 10px;
+    }
+
+
+    .hero-service span {
+        font-size: 0.62rem;
+    }
+
+
+    .hero-divider {
+        height: 38px;
+    }
+
+
+    .hero-laptop-area {
+        height: 280px;
+    }
+
+
+    .laptop {
+        width: 100%;
+    }
+
+
+    .laptop-screen {
+        padding: 7px;
+
+        border-radius: 10px 10px 3px 3px;
+    }
+
+
+    .laptop-base {
+        height: 20px;
+    }
+
+
+    .keyboard {
+        height: 9px;
+
+        top: 3px;
+    }
+
+
+    .trackpad {
+        height: 5px;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 640px) {
+    .whatsapp-btn {
+        width: 52px;
+        height: 52px;
+        right: 18px;
+        bottom: 18px;
+    }
+
+    .whatsapp-btn svg {
+        width: 29px;
+        height: 29px;
+    }
+
+    @media (max-width: 480px) {
+
+    .camera-object {
+        transform: scale(0.8);
+
+        right: -10px;
+    }
+
+}
+
+</style>
+</body>
+</html>
+
